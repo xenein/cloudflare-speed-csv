@@ -1,3 +1,4 @@
+(see below for English version) 
 # Wie wir uns Geschwindigkeitsstatistiken a la Cloudflare als CSV besorgen
 
 Dieses Repo beinhaltet ein Python-Skript, as zusammen mit speed-cloudflare-cli und cron csv-Dateien schreibt, um die Geschwindigkeit eines Internetzugangs zu monitoren. Das ganze ist eventuell nützlich, um dem eigenen ISP aufs Dach zu steigen, weil der nicht die Bandbreite liefert, die im Vertrag vereinbart wurde.
