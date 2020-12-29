@@ -16,7 +16,7 @@ Dieses Repo beinhaltet ein Python-Skript, as zusammen mit speed-cloudflare-cli u
 2. npm install --global speed-cloudflare-cli
 3. mit `$ which speed-cloudflare-cli` schauen, wo das Skript ist
 4. gegebenenfalls den Pfad zum Script in cloudflare-csv-helper.py als CLOUDFLARE_CLI_PATH anpassen.
-5 csv-header schreiben: `python3 cloudflare_csv_helper.py header > ~/cloudflare.csv`
+5. csv-header schreiben: `python3 cloudflare_csv_helper.py header > ~/cloudflare.csv`
 6. cronjob einrichten: `5-59/15 * * * * cloudflare_csv_helper.py >> ~/cloudflare.csv` in `crontab -e` vermerken
 7. das gibt alle Viertelstunde, startend um 5 nach voll, einen Test, der dann in die CSV wandert.
 
@@ -53,7 +53,7 @@ Let's use some python and speed-cloudflare-cli together with cron to create csv-
 2. npm install --global speed-cloudflare-cli
 3. find path to speed-cloudflare-cli `$ which speed-cloudflare-cli`
 4. check in cloudflare-csv-helper.py if CLOUDFLARE_CLI_PATH is correct for you.
-5 write csv-header (adjust paths as needed): `python3 cloudflare_csv_helper.py header > ~/cloudflare.csv`
+5. write csv-header (adjust paths as needed): `python3 cloudflare_csv_helper.py header > ~/cloudflare.csv`
 6. setup cronjob (I recommend absolute paths here.) : Add `5-59/15 * * * * cloudflare_csv_helper.py >> ~/cloudflare.csv` in `crontab -e`
 7. Now you should get a new line in the csv every 15 minutes, starting at 5. (see [https://crontag.guru](https://crontab.guru/#5-59/15_*_*_*_*) for reference if you need something else)
 
