@@ -36,7 +36,7 @@ Wieso ist das hier nicht bash? Weil ich das nicht kann.
 
 # How to: statistics on your internet connection speed. Automated. In CSV.
 
-Dieses Repo beinhaltet ein Python-Skript, as zusammen mit speed-cloudflare-cli und cron csv-Dateien schreibt, um die Geschwindigkeit eines Internetzugangs zu monitoren. Das ganze ist eventuell nützlich, um dem eigenen ISP aufs Dach zu steigen, weil der nicht die Bandbreite liefert, die im Vertrag vereinbart wurde.
+Let's use some python and speed-cloudflare-cli together with cron to create csv-data on broadband connection speed over time. May come in handy if you want to get into a fight with your ISP.
 
 ## What you need:
 
