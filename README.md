@@ -32,7 +32,8 @@ Wieso ist das hier nicht bash? Weil ich das nicht kann.
 - Messungen am besten (in der Netzwerktopologie) nahe am oder sogar im Router durchführen
 - Messungen am besten mit einer Kabelverbindung (wie in LAN-Kabel) durchführen
 - Messungen am besten mit einem Gerät durchführen, das mehr Bandbreite als der Internetzugang kann
-- Der Spaß hier funktioniert für mich auf meinem RaspberryPi mit Raspian. Andere Geräte habe ich nicht getestet.
+- Der Spaß hier funktioniert für mich auf meinem RaspberryPi mit Raspian. Andere Geräte habe ich nicht getestet
+- Wenn ich mal Zeit und Lust hab, schaue ich, dass Fehlerbehandlung - sowas wie "hm grade gar kein Internet da" ordentlich behandelt wird
 
 # How to: statistics on your internet connection speed. Automated. In CSV.
 
