@@ -47,7 +47,7 @@ Let's use some python and speed-cloudflare-cli together with cron to create csv-
 - cron
 - node / npm
 
-## Wie wir was bekommen
+##  how do you turn this on
 
 1. clone this repo
 2. npm install --global speed-cloudflare-cli
